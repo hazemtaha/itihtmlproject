@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Login</title>
+		<meta name="author" content="Ahmed Sobhy" />
+		<meta name="keywords" content="bookstore,books" />
+		<meta name="description" content="Book Store website" />
+		<base target="body"/>
+		<style>
+		.log_buttons{
+				background-color:#6ca300;
+				 text-align:center
+				 
+				 text-decoration: none;
+				 width:83;
+				 height:30;
+				 text-transform: capitalize;
+				 letter-spacing: 2px;
+				 
+		}
+		
+		.log_labels{
+				 
+				 text-align:center;
+				 text-color:#009900;
+				 color:#6ca300;
+				 text-decoration: none;
+				 width:90;
+				 height:30;
+				 text-transform: capitalize;
+				 letter-spacing: 2px;
+				 				 
+				 
+		}
+		
+		.log_table1{
+				background-color:#eaffa8;
+				width:100%;
+				height:100%;
+				padding-top:100px;
+				padding-left:550px;
+				
+		}
+		
+		.log_inputs{
+				background-color:#e5ffe5; 
+				text-transform: capitalize;
+				letter-spacing: 2px;
+		}		
+
+		</style>
+		
+	</head>
+
+	<body>
+		<!-- login form with table -->
+
+	 	<form mathod="post" action="content.html" >
+			<div align="center" name="div1">
+			<table class="log_table1">
+		
+			<tr>
+			<td class="log_labels"> <label >Username </label> </td>					
+			<td> <input type ="text"  class="log_inputs" name="" placeholder="User Name" minlength="6" maxlength="15" required/> </td>
+			</tr>
+			
+			<tr>
+			<td> <label class="log_labels">Password </label> </td>
+			<td> <input type ="password" class="log_inputs" name="" placeholder="Password" minlength="6" maxlength="15" required/> </td>
+			</tr>
+			
+			<tr>
+			<td>
+			</td>
+			<td> <input type="submit" value="Submit" class="log_buttons"> 
+			<input type="reset" value="Reset" class="log_buttons">
+			</td>
+			<td>
+			<a href="Reg.html">If Not A Member Please Register Here </a>
+			</td>
+			</tr>
+			</table>
+			</div>
+		</form>
+
+	</body>
+	
+</html>

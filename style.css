@@ -1,0 +1,26 @@
+p
+{
+	color:#6ca300; 
+	font-size:18;
+	text-align:center;
+}
+@font-face{
+font-family:"typographica";
+src: url(font/TypoGraphica.otf) format("truetype");
+}
+h1
+{
+	font-family:typographica;
+	color:#6ca300;
+	
+}
+div
+{
+	text-align:center;
+}
+.desc-img
+{
+	width:400;
+	height:350;
+	
+}

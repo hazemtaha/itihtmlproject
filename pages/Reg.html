@@ -1,0 +1,253 @@
+<html>
+      <head>
+	<title>Registiration Form</title>
+     <style>
+        @font-face{
+         font-family:"typographica";
+         src: url(TypoGraphica.otf) format("truetype");
+                  }
+         </style>
+
+	</head>
+
+<body bgcolor="eaffa8">
+       <h1 align="center" style="font-family:typographica;color:#285823"&copy;>Registration Form</h1>
+     
+        <form align="center" action="content.html">
+            <font size="7" style="font-family:typographica;color:green"&copy;>Student Registration</font> <br/>
+     <table align="center">
+        <tr>
+           <td>    
+            <label>First Name</label>
+           </td>
+           <td>
+             <input  type="text"
+		     name="fname"
+		     size="33" required> <br/>
+           </td>
+        </tr>
+        <tr>
+             <td>
+             <label>last Name</label>
+             </td>
+             <td>
+	     <input  type="text"
+                     name="lname"
+                     size="33" required> <br/>
+             </td>
+         </tr>
+         <tr>
+             <td>
+              <label>Email Address</label>
+ 		</td>
+            <td>
+             <input  type="email"
+		     name="email"
+		     size="33" required> <br/>
+            </td>
+         </tr>
+              <tr>
+	    <td>
+           <label>Confirm Email Address</label>
+            </td>
+ 		<td>
+             <input  type="email"
+		     name="email"
+		     size="33" required> <br/>
+              </td>
+		</tr>
+	<tr>
+		<td>
+           <label>Password</label>
+		</td>
+<td>
+             <input  type="password"
+		     name="password"
+		     size="33" required> <br/>
+</td>
+</tr>
+		<tr>
+		<td>
+           <label>Confirm Password</label>
+		</td>
+		<td>
+             <input  type="password"
+		     name="password"
+		     size="33" required> <br/>
+
+		</td>
+		</tr>
+</table>
+
+ <font size="7" color="#425408" style="font-family:typographica;color:green"&copy;">Personal Information</font> <br/>
+ <table align="center">
+	<tr>
+		<td>            
+             <label>Gender</label>
+		</td>
+		<td> 
+             <input  type="radio"
+		     name="gender"
+		     value="male"/>male
+             <input  type="radio"
+		     name="gender"
+		     value="female"/>female <br/> 
+		</td>
+		</tr>
+		<tr>
+		<td>
+             <label>Date Of Birth</label>
+		</td>
+		<td> 
+             <input  type="date"
+		     name="bday" size="70"/> <br/>
+		</td>
+		</tr>
+		<tr>
+		<td>
+              <label>National ID</label>
+		</td>
+		<td> 
+             <input  type="text"
+		     name="NID" size="40"/> <br/>
+		</td>
+		</tr>
+		<tr>
+		<td>
+              <label>Phone Number</label>
+		</td>
+		<td> 
+             <input  type="tel"
+		     name="tel" size="40"/> <br/>
+		</td>
+		</tr>
+		<tr>
+		<td>
+             <label>Home Number</label>
+		</td>
+		<td>
+	
+             <input  type="tel"
+		     name="tel"
+	         size="40"/> <br/>
+               </td>
+		</tr>
+</table>
+    <font size="7" color="#425408" style="font-family:typographica;color:green"&copy;">Student Information</font> <br/>
+<table align="center">
+            <tr>
+		<td> 
+            <label>Student ID</label>
+		</td>
+		<td> 
+             <input  type="number"
+		     name="id"
+                     min="1571"
+                     max="1971"/> <br/> 
+		</td>
+		</tr>
+		<tr>
+		<td>
+         <label>Degree Goal</label>
+		</td>
+		<td> 
+             <select name="Degree" width="35%">
+		     <option>Not Applicable </option>
+                     <option>Under Graduate </option>
+                     <option>Graduate </option>
+                     <option>other (specify below) </option> 
+                      </select> <br/>
+		</td>
+		</tr>
+		<tr>
+		<td>
+         <label>Other</label>
+		</td>
+		<td>
+
+                    <input type="text"
+                           name="other" size="40"/> <br/>
+		</td>
+		</tr>
+</table>
+<font size="7" color="#425408" style="font-family:typographica;color:green"&copy;">Genres Of Books</font> <br/>
+
+         <label> Favorites</label> <br/> 
+<table align="center">
+		<tr>
+		<td>
+             <input  type="checkbox"
+		     name="genres"
+                     value="Science fiction"/>Science Fiction
+             </td>
+		<td>
+  		<input  type="checkbox"
+		     name="genres"
+                     value="Drama"/>Drama 
+              </td>
+		<td>
+			<input  type="checkbox"
+		     name="genres"
+                     value="Action and Adventure"/>Action and Adventure 
+              </td>
+		<td>
+              <input  type="checkbox"
+		     name="genres"
+                     value="Mystery"/>Mystery <br/>
+		</td>
+		</tr>
+		<tr>
+		<td>
+               <input  type="checkbox"
+		     name="genres"
+                     value="Horror"/>Horror
+                    </td>
+		<td>
+		 <input  type="checkbox"
+		     name="genres"
+                     value="Health"/>Health
+		</td>
+		<td>
+		 <input  type="checkbox"
+		     name="genres"
+                     value="Travel"/>Travel
+		</td>
+			<td>
+                  <input  type="checkbox"
+		     name="genres"
+                     value="History"/>History <br/>
+		</td>		
+		</tr>
+	  <tr>
+		<td>
+		 <input  type="checkbox"
+		     name="genres"
+                     value="Sport"/>Sport
+		</td>
+		<td> 
+		<input  type="checkbox"
+		     name="genres"
+                     value="Art"/>Art
+		</td>
+		<td> 
+		<input  type="checkbox"
+		     name="genres"
+                     value="Poetry"/>Poetry
+		</td>
+		<td>
+		 <input  type="checkbox"
+		     name="genres"
+                     value="Fantasy"/>Fantasy  <br/>
+		</td>
+		</tr>
+</table>		
+
+             <input type="image" width="8%" src="../images/reg.png" value="Submit">
+             
+      </form>
+
+
+
+</body>
+
+</html>		
